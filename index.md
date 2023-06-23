@@ -16,7 +16,7 @@ enddate: 2023-06-26        # machine-readable end date for the workshop in YYYY-
 instructor: ["Renée F. Brown", "Darren R. James", "Gregory E. Maurer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Madeleine Soss"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["gmaurer@nmsu.edu","msoss@nmsu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: https://pad.carpentries.org/2023-06-26-jornada-r-ecol # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite: "652124892107" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -436,3 +436,11 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+<div>
+  <h3>Acknowledgment</h3>
+  <p>This workshop is funded through the National Science Foundation EPSCoR Cooperative Agreement OIA-1757207. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+  </p>
+  <img src="./assets/img/RII4_LOGO_EPSCoR-01.png" alt="NM EPSCoR Logo" width="300">&nbsp;&nbsp;
+  <img src="./assets/img/NSF_4-Color_bitmap_Logo.png" alt="NSF Logo" width="100">
+</div>
